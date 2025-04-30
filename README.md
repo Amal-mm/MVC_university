@@ -39,7 +39,7 @@ sql
 نسخ
 تحرير
 /Controllers  
-  ├── [TeacherController.cs](https://github.com/https://github.com/Amal-mm/https://github.com/Amal-mm/MVC_university/blob/main/Controllers/TeacherController.cs)  
+  ├── [TeacherController.cs](https://github.com/https://github.com/Amal-mm/https://github.com/https://github.com/Amal-mm/MVC_university/blob/mainCS290-W23-HW7-%3CAmal%3E%3CAlqhtani%3E/courseController.cs/blob/main/Controllers/TeacherController.cs)  
   ├── [StudentController.cs](...)  
   ├── [CourseController.cs](...)  
   └── [RoomController.cs](...)  
