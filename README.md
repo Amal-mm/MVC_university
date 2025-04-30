@@ -1,7 +1,7 @@
 # MVC Information Management System
 A web-based application built using the ASP.NET MVC Framework for managing educational data efficiently. This system allows users to create, read, update, and delete (CRUD) information related to teachers, students, courses, and rooms through an organized and intuitive interface.
 
-#🚀 Features
+🚀# Features
 🔹 Full CRUD operations for:
 
 👩‍🏫 Teachers
