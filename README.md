@@ -34,42 +34,53 @@ JavaScript
 Visual Studio
 
 # 📂 Project Structure
+# 📁 Controllers
+TeacherController.cs
 
-📁 Controllers
-│   ├── TeacherController.cs
-│   ├── StudentController.cs
-│   ├── CourseController.cs
-│   └── RoomController.cs
+StudentController.cs
 
+CourseController.cs
 
-📁 Models
-│   ├── Teacher.cs
-│   ├── Student.cs
-│   ├── Course.cs
-│   └── Room.cs
+RoomController.cs
 
-📁 Views
-│
-├── 📁 Teacher
-│   ├── GetTeacher.cshtml
-│   ├── InsertTeacher.cshtml
-│   └── Details.cshtml
-│
-├── 📁 Student
-│   ├── GetStudent.cshtml
-│   ├── InsertStudent.cshtml
-│   └── Details.cshtml
-│
-├── 📁 Course
-│   ├── GetCourse.cshtml
-│   ├── InsertCourse.cshtml
-│   └── Details.cshtml
-│
-└── 📁 Room
-    ├── GetRooms.cshtml
-    ├── InsertRoom.cshtml
-    ├── GetRoom.cshtml
-    └── Details.cshtml
+# 📁 Models
+Teacher.cs
 
+Student.cs
+
+Course.cs
+
+Room.cs
+
+# 📁 Views
+👩‍🏫 Teacher
+GetTeacher.cshtml
+
+InsertTeacher.cshtml
+
+Details.cshtml
+
+🎓 Student
+GetStudent.cshtml
+
+InsertStudent.cshtml
+
+Details.cshtml
+
+📚 Course
+GetCourse.cshtml
+
+InsertCourse.cshtml
+
+Details.cshtml
+
+🏫 Room
+GetRooms.cshtml
+
+InsertRoom.cshtml
+
+GetRoom.cshtml
+
+Details.cshtml
 
 
