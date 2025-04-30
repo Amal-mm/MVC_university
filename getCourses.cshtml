@@ -1,0 +1,28 @@
+﻿@model List<MVC9909.Models.course>
+
+
+<table cellpadding="0" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>ID </th>
+            <th>course Name</th>
+            <th>course Name</th>
+            <th>is Available?</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in Model)
+        {
+            <tr>
+                <td valign="middle" data-header-title="Date"><span>@course.courseId</span></td>
+                <td><a href="/course/Detailes/@course.courseId">@course.courseName</a></td>
+                <td valign="middle" data-header-title="Price">@course.courseName</td>
+                <td valign="middle" data-header-title="Supplement">@course.isAvailable</td>
+                <td><a href="/course/deleteCourse/@course.courseId">Delete</a></td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
