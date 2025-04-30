@@ -1,0 +1,28 @@
+﻿@model List<MVC9909.Models.student>
+
+
+<table cellpadding="0" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>ID </th>
+            <th>student Name</th>
+            <th>student Name</th>
+            <th>student number</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td valign="middle" data-header-title="Date"><span>@student.studentId</span></td>
+                <td><a href="/student/getDetails/@student.studentId">@student.studentName</a></td>
+                <td valign="middle" data-header-title="Price">@student.studentName</td>
+                <td valign="middle" data-header-title="Supplement">@student.studentNo</td>
+                <td><a href="/student/deleteStudent/@student.studentId">Delete</a></td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
