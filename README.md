@@ -35,52 +35,53 @@ Visual Studio
 
 # 📂 Project Structure
 # 📁 Controllers
-TeacherController.cs
+-TeacherController.cs
 
-StudentController.cs
+-StudentController.cs
 
-CourseController.cs
+-CourseController.cs
 
-RoomController.cs
+-RoomController.cs
 
 # 📁 Models
-Teacher.cs
+-Teacher.cs
 
-Student.cs
+-Student.cs
 
-Course.cs
+-Course.cs
 
-Room.cs
+-Room.cs
 
 # 📁 Views
-👩‍🏫 Teacher
-GetTeacher.cshtml
 
-InsertTeacher.cshtml
+# Teacher
+-GetTeacher.cshtml
 
-Details.cshtml
+-InsertTeacher.cshtml
 
-🎓 Student
-GetStudent.cshtml
+-Details.cshtml
 
-InsertStudent.cshtml
+# 🎓 Student
+-GetStudent.cshtml
 
-Details.cshtml
+-InsertStudent.cshtml
 
-📚 Course
-GetCourse.cshtml
+-Details.cshtml
 
-InsertCourse.cshtml
+# 📚 Course
+-GetCourse.cshtml
 
-Details.cshtml
+-InsertCourse.cshtml
 
-🏫 Room
-GetRooms.cshtml
+-Details.cshtml
 
-InsertRoom.cshtml
+# 🏫 Room
+-GetRooms.cshtml
 
-GetRoom.cshtml
+-InsertRoom.cshtml
 
-Details.cshtml
+-GetRoom.cshtml
+
+-Details.cshtml
 
 
