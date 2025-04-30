@@ -34,25 +34,21 @@ JavaScript
 Visual Studio
 
 # 📂 Project Structure
+
 sql
 نسخ
 تحرير
-/Controllers
-  ├── TeacherController.cs
-  ├── StudentController.cs
-  ├── CourseController.cs
-  └── RoomController.cs
+/Controllers  
+  ├── [TeacherController.cs](https://github.com/https://github.com/Amal-mm/https://github.com/Amal-mm/MVC_university/blob/main/Controllers/TeacherController.cs)  
+  ├── [StudentController.cs](...)  
+  ├── [CourseController.cs](...)  
+  └── [RoomController.cs](...)  
 
-/Models
-  ├── Teacher.cs
-  ├── Student.cs
-  ├── Course.cs
-  └── Room.cs
+/Models  
+  ├── [Teacher.cs](...)  
+  ├── [Student.cs](...)  
+  ├── [Course.cs](...)  
+  └── [Room.cs](...)  
 
-/Views
-  ├── Teacher (Index, Create, Edit, Delete)
-  ├── Student (...)
-  ├── Course (...)
-  └── Room (...)
 
 
