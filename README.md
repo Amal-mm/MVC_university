@@ -48,30 +48,27 @@ Visual Studio
 │   └── Room.cs
 
 📁 Views
-│   ├── Teacher
-│   │   ├── getTeacher.cshtml
-│   │   ├── insertTeacher.cshtml
-│   │   ├── detieles.cshtml
-│   │   
-│   │
-│   ├── Student
-│   │   ├── getDetiles.cshtml
-│   │   ├── getStudent.cshtml
-│   │   ├── insertStudent.cshtml
-│   │   
-│   │
-│   ├── Course
-│   │   ├── getCourse.cshtml
-│   │   ├── insertCourse.cshtml
-│   │   ├── Detile.cshtml
-│   │  
-│   │
-│   └── Room
-│       ├── getRooms.cshtml
-│       ├── getRoom.cshtml
-│       ├── insertRoom.cshtml
-│       └── getDetiles.cshtml
-  
+│
+├── 📁 Teacher
+│   ├── GetTeacher.cshtml
+│   ├── InsertTeacher.cshtml
+│   └── Details.cshtml
+│
+├── 📁 Student
+│   ├── GetStudent.cshtml
+│   ├── InsertStudent.cshtml
+│   └── Details.cshtml
+│
+├── 📁 Course
+│   ├── GetCourse.cshtml
+│   ├── InsertCourse.cshtml
+│   └── Details.cshtml
+│
+└── 📁 Room
+    ├── GetRooms.cshtml
+    ├── InsertRoom.cshtml
+    ├── GetRoom.cshtml
+    └── Details.cshtml
 
 
 
