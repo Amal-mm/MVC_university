@@ -1,0 +1,31 @@
+﻿@model List<MVC9909.Models.room>
+
+
+<table cellpadding="0" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>ID </th>
+            <th>Room Name</th>
+            <th>Room size</th>
+            <th>Is Avilable?</th>
+            <th>Location</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var room in Model)
+        {
+            <tr>
+                <td valign="middle" data-header-title="Date"><span>@room.roomId</span></td>
+                <td><a href="/room/getDetails/@room.roomId">@room.roomName</a></td>
+                <td valign="middle" data-header-title="Price">@room.roomName</td>
+                <td valign="middle" data-header-title="Supplement">@room.roomSize</td>
+                <td valign="middle" data-header-title="Supplement">@room.location</td>
+                <td valign="middle" data-header-title="Supplement">@room.isAvailable</td>
+                <td><a href="/room/deleteRoom/@room.roomId">Delete</a></td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
